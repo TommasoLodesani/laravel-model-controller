@@ -13,7 +13,8 @@ class HomeController extends Controller
 
     public function list(){
        $movies =  Movie::all();
-       dd($movies);
+
+       return view('list', compact('movies'));
 
     }
 }
