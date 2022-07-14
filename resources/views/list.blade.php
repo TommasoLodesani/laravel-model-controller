@@ -4,15 +4,15 @@
 
 @section('pageMain')
     <main>
-        <ul>
+
             @foreach ($movies as $movie)
-            <li>
-                {{$movie->title}}
-            </li>
+
+              <h1>{{$movie->title}}</h1>
+
 
             @endforeach
 
-        </ul>
+
     </main>
 
 
