@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Home</h1>
+    <h1>Home, connesso con Controller</h1>
+
 </body>
 </html>
